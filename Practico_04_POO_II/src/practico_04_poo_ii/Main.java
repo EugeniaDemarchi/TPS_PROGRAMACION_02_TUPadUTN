@@ -13,7 +13,8 @@ public class Main {
     public static void main(String[] args) {
         // Instanciar con los dos constructores
         Empleado e1 = new Empleado(1, "Eugenia", "Frontend", 2000.0);
-        Empleado e2 = new Empleado("Martin", "Tester");
+ 
+       Empleado e2 = new Empleado("Martin", "Tester");
         Empleado e3 = new Empleado("Ana", "Backend");
 
         // Mostrar empleados recién creados
